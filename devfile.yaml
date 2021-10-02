@@ -28,7 +28,7 @@ components:
         containerPath: /home/user/.m2
   - type: dockerimage
     alias: ipfs
-    image: 'counterparty/go-ipfs:latest'
+    image: 'monaparty/go-ipfs:latest'
     env:
       - name: IPFS_PROFILE
         value: server
